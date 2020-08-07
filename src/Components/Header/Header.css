@@ -1,0 +1,13 @@
+.header {
+    background-color: #ab2a19;
+    height: 6vh;
+}
+
+.title { 
+    float: left;
+    color: white;
+}
+
+* {
+    line-height: 1.5rem;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Product from '../Product/Product'
+import './Dasboard.css'
 
 export class Dashboard extends Component {
     render() {
@@ -12,4 +13,4 @@ export class Dashboard extends Component {
     }
 }
 
-export default Dashboard
+export default Dashboard;

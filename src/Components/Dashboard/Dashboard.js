@@ -4,10 +4,15 @@ import './Dasboard.css'
 
 export class Dashboard extends Component {
     render() {
+        // console.log(this.props.productList)
         return (
+            
+            
             <div>
                 <h1>Dashboard</h1>
-                <Product/>
+                { this.props.productList.map((products) => (
+                    <Product key={products.id} products={products} />
+                  ) )}
             </div>
         )
     }

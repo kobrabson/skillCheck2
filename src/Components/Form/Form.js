@@ -9,7 +9,7 @@ export class Form extends Component {
             image: '',
             product: '',
             price: '',
-            list:[]
+            productList:[]
         }
 
         this.cancelHandler = this.cancelHandler.bind(this)

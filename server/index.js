@@ -20,11 +20,11 @@ massive({
 })
 .catch(err => console.log(err));
 
-
-
 app.use(express.json());
 
-
+app.get('/api/inventory', ctrl.getAllInventory)
+// app.post('/api/inventory', ctrl.addToInventory)
+// app.delete('/api/inventory', ctrl.deleteOneInventory)
 
 app.listen(PORT, () => {
     console.log(`we've lost server ${PORT}`);
